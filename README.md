@@ -43,6 +43,23 @@ int main() {
     return 0;
 }
 ```
+> [!CAUTION]
+> Make sure you validate each pointer before usage!
+> ``` cpp
+> //Example 1
+> if(add) //validated (can use function)
+> {
+>    // do stuff with it here. (add(2, 2); = 2 + 2 = 4)
+> }
+>
+> //Example 2
+> if(!add) //check if failed
+> {
+>    std::cout << "Failed to load the add function." << std::endl;
+>    FreeLibrary(hmod);
+>    return 1;
+> }
+> ```
 
 ## Static-linking example
 ``` cpp
