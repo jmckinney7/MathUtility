@@ -40,6 +40,7 @@ int main() {
     std::cout << "15 / 0 = " << div(15, 0) << std::endl; // nan
 
     FreeLibrary(hmod);
+    return 0;
 }
 ```
 
