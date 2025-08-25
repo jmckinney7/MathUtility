@@ -49,7 +49,7 @@ int main() {
 > //Example 1
 > if(add) //validated (can use function)
 > {
->    // do stuff with it here. (add(2, 2); = 2 + 2 = 4)
+>    // do stuff with it here.
 > }
 >
 > //Example 2
